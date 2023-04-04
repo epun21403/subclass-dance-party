@@ -36,7 +36,7 @@ Dancer.prototype.lineUp = function() {
     });
   } else if (theColorIs === 'rgb(177, 176, 178)') {
     this.$node.animate({
-      top: 600
+      top: 850
     });
   }
 };
