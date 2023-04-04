@@ -13,16 +13,36 @@ Dancer.prototype.step = function() {
 };
 
 Dancer.prototype.setPosition = function(top, left) {
-  var color = Boolean(Math.random() >= 0.5) ? 'rgb(29, 12, 12)' : 'rgb(177, 176, 178)';
+  //if true ? black : white
+  var color = Boolean(Math.random() >= 0.5) ? '#1d0c0c' : '#b1b0b2';
   var styleSettings = {
     top: top,
-    left: left
+    left: left,
+    color: color
   };
   this.$node.css(styleSettings);
 };
 
+/*
+white - rgb(177, 176, 178)
+black - rgb(29, 12, 12)
+*/
+
 Dancer.prototype.lineUp = function() {
+  var theColorIs = this.$node.css('color');
+  if (theColorIs === 'rgb(29, 12, 12)') {
+    this.$node.animate({
+      top: 60
+    });
+  } else if (theColorIs === 'rgb(177, 176, 178)') {
+    this.$node.animate({
+      top: 600
+    });
+  }
+};
+
+Dancer.prototype.discoTime = function() {
   this.$node.animate({
-    left: 0
+    bottom: 0
   });
 };
