@@ -2,7 +2,7 @@
 
 var Pawn = function (top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<i class="Pawn fa-solid fa-chess-pawn fa-2xl"></i>');
+  this.$node = $('<i class="Pawn fa-solid fa-chess-pawn fa-shake fa-2xl"></i>');
   this.setPosition(this.top, this.left);
 };
 
@@ -17,7 +17,7 @@ Pawn.prototype.animate = function () {
 
 Pawn.prototype.step = function () {
   this.animate();
-  this.$node.toggle();
+  // this.$node.toggle();
   // var styleSettings = {
   //   width: Math.random(),
   //   height: Math.random()

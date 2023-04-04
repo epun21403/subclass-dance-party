@@ -19,5 +19,5 @@ Queen.prototype.animate = function() {
 
 Queen.prototype.step = function () {
   this.animate();
-  this.$node.toggle();
+  // this.$node.toggle();
 };

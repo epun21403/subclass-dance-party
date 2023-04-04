@@ -19,5 +19,5 @@ Rook.prototype.animate = function() {
 
 Rook.prototype.step = function () {
   this.animate();
-  this.$node.toggle();
+  // this.$node.toggle();
 };

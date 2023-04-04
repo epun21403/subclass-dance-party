@@ -3,7 +3,7 @@
 
 var King = function (top, left, timeBetweenSteps) {
   BlinkyDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<i class="King fa-solid fa-chess-king fa-2xl"></i>');
+  this.$node = $('<i class="King fa-solid fa-chess-king fa-2xl fa-flip" style="--fa-flip-x: 1; --fa-flip-y: 0;""></i>');
   this.setPosition(this.top, this.left);
 };
 
@@ -19,5 +19,5 @@ King.prototype.animate = function() {
 
 King.prototype.step = function () {
   this.animate();
-  this.$node.toggle();
+  // this.$node.toggle();
 };
