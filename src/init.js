@@ -30,5 +30,11 @@ $(document).ready(function() {
 
     window.dancers.push(dancer);
   });
+
+  $('.addLineUp').on('click', function(event) {
+    for (var i = 0; i < window.dancers.length; i++) {
+      window.dancers[i].lineUp();
+    }
+  });
 });
 

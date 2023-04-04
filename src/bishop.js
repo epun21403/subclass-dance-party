@@ -3,7 +3,7 @@
 
 var Bishop = function (top, left, timeBetweenSteps) {
   BlinkyDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<i class="bishop fa-regular fa-chess-bishop"></i>');
+  this.$node = $('<i class="Bishop fa-regular fa-chess-bishop"></i>');
   this.setPosition(this.top, this.left);
 };
 

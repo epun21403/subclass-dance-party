@@ -2,7 +2,7 @@
 
 var Pawn = function (top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<i class="pawn fa-regular fa-chess-pawn"></i>');
+  this.$node = $('<i class="Pawn fa-regular fa-chess-pawn"></i>');
   this.setPosition(this.top, this.left);
 };
 

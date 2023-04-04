@@ -3,7 +3,7 @@
 
 var Queen = function (top, left, timeBetweenSteps) {
   BlinkyDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<i class="queen fa-regular fa-chess-queen"></i>');
+  this.$node = $('<i class="Queen fa-regular fa-chess-queen"></i>');
   this.setPosition(this.top, this.left);
 };
 

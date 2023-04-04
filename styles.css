@@ -25,25 +25,25 @@ body, a:link, a:visited, a:active{
   color: blueviolet;
   position:absolute;
 }
-.bishop {
+.Bishop {
   color: antiquewhite;
   border-radius: 5px;
   position: absolute;
 }
-.knight {
+.Knight {
   color: antiquewhite;
   border-radius: 12px;
   position: absolute;
 }
-.pawn{
+.Pawn{
   color: antiquewhite;
   position: absolute;
 }
-.queen{
+.Queen{
   color: antiquewhite;
   position: absolute;
 }
-.king{
+.King{
   color: antiquewhite;
   position: absolute;
 }

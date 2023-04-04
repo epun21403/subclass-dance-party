@@ -2,7 +2,7 @@
 
 var Knight = function (top, left, timeBetweenSteps) {
   BlinkyDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<i class="knight fa-regular fa-chess-knight"></i>');
+  this.$node = $('<i class="Knight fa-regular fa-chess-knight"></i>');
   this.setPosition(this.top, this.left);
 };
 Knight.prototype = Object.create(BlinkyDancer.prototype);
