@@ -5,6 +5,7 @@ body{
   margin: 0px;
   background-color:#444;
   font-size: 18px;
+  overflow: hidden;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
@@ -21,17 +22,28 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  color: blueviolet;
   position:absolute;
 }
-.waterDancer {
-  border:20px solid rgb(82, 161, 214);
+.bishop {
+  color: antiquewhite;
   border-radius: 5px;
   position: absolute;
 }
-.earthDancer {
-  border:20px solid rgb(143, 109, 17);
-  border-radius: 5px;
+.knight {
+  color: antiquewhite;
+  border-radius: 12px;
+  position: absolute;
+}
+.pawn{
+  color: antiquewhite;
+  position: absolute;
+}
+.queen{
+  color: antiquewhite;
+  position: absolute;
+}
+.king{
+  color: antiquewhite;
   position: absolute;
 }
