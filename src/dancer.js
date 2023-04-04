@@ -1,5 +1,5 @@
 var Dancer = function(top, left, timeBetweenSteps) {
-  this.$node = $('<span class="dancer fa-solid fa-user-secret"></span>');
+  this.$node = $('<span class="Dancer fa-solid fa-user-secret fa-2xl"></span>');
   this.top = top;
   this.left = left;
   this.timeBetweenSteps = timeBetweenSteps;
@@ -13,7 +13,7 @@ Dancer.prototype.step = function() {
 };
 
 Dancer.prototype.setPosition = function(top, left) {
-  var color = Boolean(Math.random() >= 0.5) ? 'black' : 'white';
+  var color = Boolean(Math.random() >= 0.5) ? 'rgb(29, 12, 12)' : 'rgb(177, 176, 178)';
   var styleSettings = {
     top: top,
     left: left
